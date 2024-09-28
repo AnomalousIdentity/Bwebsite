@@ -57,14 +57,14 @@ const HeroSection = () => {
             I am currently a undergraduate student at the University of Washington, planning 
             to graduate with a B.S. in Computer Science by 2026. My current
             technical interests are artificial intelligence and software development.
-            I'm always on the lookout for opportunities that can have real world impact.
+            I am always on the lookout for opportunities that can have real world impact.
           </p>
         </div>
       </div>
       <div className="content flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-3/5"  style={{marginTop:500}}>
           <p className="fade text-lg mt-4 mb-6 md:text-2xl text-center" style={{color: 'white'}}>
-            See my blogs for my ephiphanies and advice I've collected through my life.
+            See my blogs for my ephiphanies and advice I have collected through my life.
           </p>
         </div>
       </div>
