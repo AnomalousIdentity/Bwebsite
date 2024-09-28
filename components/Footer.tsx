@@ -4,6 +4,8 @@ import {
   AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineYoutube,
+  AiOutlineMail,
+  AiFillMail,
 } from "react-icons/ai"
 
 const Footer = () => {
@@ -13,19 +15,23 @@ const Footer = () => {
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
         
-             © Johnathan Zhang <a href="/" className="hover:underline"></a>
-             <a href="https://github.com/AnomalousIdentity" rel="noreferrer" target="_blank">
-            <AiOutlineGithub
+             © Jiaming Zhang <a href="/" className="hover:underline"></a>
+          <a
+            href="https://www.linkedin.com/in/jiaming-zhang1/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/johnathan-zhang/"
+            href="mailto:jz050701@uw.edu"
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineLinkedin
+            <AiOutlineMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />

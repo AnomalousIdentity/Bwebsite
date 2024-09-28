@@ -28,6 +28,8 @@
     "three": "^0.168.0",
     "threejs-toys": "^0.0.8",
     "tsparticles": "^3.5.0",
+    "tsparticles-preset-fire": "^2.12.0",
+    "tsparticles-preset-links": "^2.12.0",
     "tsparticles-preset-stars": "^2.12.0",
     "tsparticles-slim": "^2.12.0",
     "typescript": "4.9.4"

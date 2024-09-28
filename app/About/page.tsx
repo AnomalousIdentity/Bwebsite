@@ -1,64 +1,55 @@
+"use client";
+
 import React from "react"
 import Image from "next/image"
+import Stars from "@/components/Particles"
 
 const skills = [
-  { skill: "C++" },
   { skill: "Java" },
-  { skill: "HTML" },
   { skill: "CSS" },
-  { skill: "JavaScript" },
+  { skill: "HTML" },
   { skill: "TypeScript" },
   { skill: "React" },
-  { skill: "Next.js" },
+  { skill: "Node.js" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebook" },
 ]
 
 export default function AboutHome() {
   return (
     <section id="About">
-      <div style={{marginTop: 100, marginLeft:100, marginRight:100}} className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="text-center font-bold text-4xl">
+      <div className="particles">
+        <Stars />
+      </div>
+      <div style={{marginTop: 100, marginLeft:100, marginRight:100}} className="content my-12 pb-12 md:pt-16 md:pb-48">
+        <h1 className="text-white text-center font-bold text-4xl">
           About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
 
-        <div className="text-center flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+        <div className="text-white text-center flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <p>
-              Hi, my name is Johnathan and I am an aspiring{" "}
-              <span className="font-bold">{"software engineer"}</span>,
-              <span className="font-bold">{" musician"}</span>, and
-              <span className="font-bold">{" chef "}</span>
-              based in Bellevue, WA.
+              Hi, I am Jiaming and I am a software engineer
+              based in Seattle, WA.
             </p>
             <br />
             <p>
-                I am currently a undergraduate student at the University of Washington
-                studying Computer Science, planning to graduate by 2026. My current
-                technical interests are artificial intelligence and data analysis.
-                I am curious about interdisciplinary research involving these fields
-                with biology. I will always be eager to complete a project that has
-                real world impact.
+              I am currently a third year student at the University of Washington
+              studying Computer Science, planning to graduate by 2026. My current
+              technical interests are artificial intelligence and software development.
+              I am always on the lookout for opportunities that can have real world impact.
             </p>
             <br />
             <p>
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things. I wish to keep an open mind and be on the constantly lookout for
-              new opportunities because only by doing so will I keep up with
-              recent technological developments and news.
-            </p>
-            <br />
-            <p>
-              In my free time, I like to listen to music and cook, specializing in chinese
-              pastries. With perfect pitch and having performed in Carnegie Hall with piano,
-              I am also able to play music. I'm looking forward to meeting anyone with similar interests!
+              I want to keep challenging myself and keep up my drive to continue pursuing distant
+              goals I have set for myself in the future. Please contact me at jz050701@uw.edu
+              if you have any questions.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             
           <Image
-              src="/photo.png"
+              src="/photo.jpg"
               alt=""
               width={225}
               height={125}
